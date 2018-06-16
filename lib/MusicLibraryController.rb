@@ -55,6 +55,10 @@ class MusicLibraryController
         end
       end
 
+      def list_songs_by_artist 
+        Song.all.sort{ |a, b| a.name <=> b.name }.find_by_name(artist)
+      end 
+
 
 
 
