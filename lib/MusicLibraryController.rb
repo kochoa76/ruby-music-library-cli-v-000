@@ -71,10 +71,10 @@ class MusicLibraryController
 
         if genre = Genre.find_by_name(input)
           genre.songs.{|a, b| a.name <=> b.name }.each.with_index(1) do |g, i|
-            
+              puts "#{i}. #{s.name} - #{s.genre.name}"
           end
         end
-      end 
+      end
 
 
 
