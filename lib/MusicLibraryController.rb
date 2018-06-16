@@ -63,6 +63,7 @@ class MusicLibraryController
           puts "#{i}. #{s.name} - #{s.genre.name}
         end
       end
+    end 
 
 
 
