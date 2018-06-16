@@ -77,7 +77,7 @@ class MusicLibraryController
       end
 
       def play_song
-        puts "Please choose song:"
+        puts "Which song number would you like to play?"
         input = gets.strip
         list_songs
       end
